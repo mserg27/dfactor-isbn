@@ -1,0 +1,16 @@
+{
+    "name": "mserg27/dfactor-isbn",
+    "description": "Search for isbn code in a table and save the result to excel",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Mironov",
+            "email": "mserg27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
