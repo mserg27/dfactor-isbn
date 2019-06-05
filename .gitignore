@@ -1,4 +1,5 @@
 /vendor
 /nbproject/private/
 /nbproject/
-report.txt
+/src/*.xlsx
+*.xlsx

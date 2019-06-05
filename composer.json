@@ -2,9 +2,6 @@
     "name": "mserg27/dfactor-isbn",
     "description": "Search for isbn code in a table and save the result to excel",
     "type": "project",
-    "require": {
-        "phpoffice/phpspreadsheet": "dev-master"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -12,5 +9,13 @@
             "email": "mserg27@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Isbn\\" : "src/"
+        }
+    }
 }
